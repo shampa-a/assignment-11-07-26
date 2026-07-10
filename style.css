@@ -5,10 +5,14 @@ nav {
   padding: 10px 10px;
 }
 
-header {
+header  
   width: 100%;
   height: 5px ;
   background-color: #ffffff;
+}
+.navbar h5 img {
+  width: 100px;
+  height: 50px;
 }
 
 ul {
