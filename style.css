@@ -5,7 +5,6 @@ nav {
   padding: 10px 10px;
 }
 
-
 .navbar h5 img {
   width: 100px;
   height: 50px;
@@ -33,7 +32,7 @@ button {
   font-size: 20px;
   padding: 2px 2px 2px 2px;
 }
- .banner{
+.banner {
   background-image: url(./image/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,24 +40,21 @@ button {
   align-items: center;
   height: 90vh;
   width: 100%;
-  position:relative;
-  display:flex;
-  text-align:center;
-  
-
- }
- .banner-content{
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+.banner-content {
   justify-content: center;
   align-items: center;
   color: white;
   position: absolute;
-
- }
- .paragraph-content{
+}
+.paragraph-content {
   font-size: 20px;
   color: white;
   text-align: center;
-   position:relative;
-    max-width:600px;
-    z-index:1;
- }
+  position: relative;
+  max-width: 600px;
+  z-index: 1;
+}
