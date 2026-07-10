@@ -58,3 +58,34 @@ button {
   max-width: 600px;
   z-index: 1;
 }
+
+.speaker-grid{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+
+}
+.meet{
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+}
+
+.speaker-column{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+
+}
+small {
+  font-size: 12px;
+  color: blue;
+}
+speaker-info{
+  padding: 25px;
+}
+.speaker-info p{
+    color:#6b7280;
+}
