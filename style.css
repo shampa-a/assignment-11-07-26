@@ -33,7 +33,7 @@ button {
   padding: 2px 2px 2px 2px;
 }
 .banner {
-  background-image: url(./image/banner.jpg);
+  background-image: url(./Image/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
