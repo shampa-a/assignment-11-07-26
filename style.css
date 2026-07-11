@@ -89,3 +89,52 @@ speaker-info{
 .speaker-info p{
     color:#6b7280;
 }
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+
+}
+.price-card{
+    background:#ffffff;
+    border-radius:15px;
+    padding:30px;
+    border:1px solid #e5e7eb;
+}
+
+.price-st ul{
+    margin-bottom:30px;
+
+}
+
+.price-card li{
+    margin-bottom:15px;
+    color:#374151;
+
+}
+.back-black{
+  margin-bottom:15px;
+    background-color: black;
+    color:white;
+    transform:scale(1.05);
+
+    }
+
+.center{
+    text-align:center;
+}
+.center-s{
+    text-align:center;
+    color: #6b7280;
+}
+.highlight{
+    color: #6b7280;
+    text-align:left;
+}
+.highlight-blue{
+    color: blue;
+    text-align:left;
+    margin: 10px;
+    
+}
