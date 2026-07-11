@@ -59,82 +59,75 @@ button {
   z-index: 1;
 }
 
-.speaker-grid{
-    margin-top:60px;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
-
+.speaker-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
-.meet{
+.meet {
   display: flex;
   justify-content: center;
   font-style: bold;
 }
 
-.speaker-column{
-    border:1px solid #e5e7eb;
-    border-radius:12px;
-    overflow:hidden;
-    transition:.3s;
-
+.speaker-column {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
 }
 small {
   font-size: 12px;
   color: blue;
 }
-speaker-info{
+speaker-info {
   padding: 25px;
 }
-.speaker-info p{
-    color:#6b7280;
+.speaker-info p {
+  color: #6b7280;
 }
 
-.pricing-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
-
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
-.price-card{
-    background:#ffffff;
-    border-radius:15px;
-    padding:30px;
-    border:1px solid #e5e7eb;
-}
-
-.price-st ul{
-    margin-bottom:30px;
-
+.price-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid #e5e7eb;
 }
 
-.price-card li{
-    margin-bottom:15px;
-    color:#374151;
+.price-card ul {
+  margin-bottom: 30px;
+}
 
+.price-card li {
+  margin-bottom: 15px;
+  color: #374151;
 }
-.back-black{
-  margin-bottom:15px;
-    background-color: black;
-    color:white;
-    transform:scale(1.05);
+.back-black {
+  margin-bottom: 15px;
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+}
 
-    }
-
-.center{
-    text-align:center;
+.center {
+  text-align: center;
 }
-.center-s{
-    text-align:center;
-    color: #6b7280;
+.center-s {
+  text-align: center;
+  color: #6b7280;
 }
-.highlight{
-    color: #6b7280;
-    text-align:left;
+.highlight {
+  color: #6b7280;
+  text-align: left;
 }
-.highlight-blue{
-    color: blue;
-    text-align:left;
-    margin: 10px;
-    
+.highlight-blue {
+  color: blue;
+  text-align: left;
+  margin: 10px;
 }
